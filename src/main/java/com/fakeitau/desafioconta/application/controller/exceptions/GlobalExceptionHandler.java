@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(ResponseStatusException.class)
     public ResponseEntity<Map<String, Object>> handleHttpServerError(HttpServerErrorException ex) {
         Map<String, Object> body = new LinkedHashMap<>();
-        body.put("status", ex.getStatusCode().value());
+        body.put("status", "Validar os dados enviados para API, consulte nossa documentação em: https://gitpages");
         body.put("error", ex.getStatusText());
         body.put("message", ex.getMessage());
         body.put("timestamp", LocalDateTime.now());
