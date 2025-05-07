@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  mock-api:
+    image: clue/json-server
+    volumes:
+      - ./mock-api/db.json:/data/db.json
+      - ./mock-api/routes.json:/data/routes.json
+    command: --watch /data/db.json --routes /data/routes.json --host 0.0.0.0
+    ports:
+      - 8081:80
+    networks:
+      - banco-network
+networks:
+  banco-network:
+    driver: bridge
