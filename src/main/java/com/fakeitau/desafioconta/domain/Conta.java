@@ -1,7 +1,7 @@
 package com.fakeitau.desafioconta.domain;
 
 public record Conta(
-        String idConta,
+        String id,
         String agencia,
         String conta,
         String dac,
