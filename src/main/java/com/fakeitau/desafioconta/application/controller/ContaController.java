@@ -20,6 +20,6 @@ public class ContaController {
 
     @GetMapping("/{idConta}")
     public ResponseEntity buscarDadosConta(@PathVariable String idConta){
-        return ResponseEntity.ok(contaService.consultarConta("123"));
+        return ResponseEntity.ok(contaService.consultarConta(idConta));
     }
 }

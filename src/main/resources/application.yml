@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: desafioconta
+
+mock:
+  api:
+    url: http://localhost:8081

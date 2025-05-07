@@ -1,6 +1,12 @@
 {
   "contas": [
-    { "id": "1", "saldo": 1000.0 },
-    { "id": "2", "saldo": 2500.5 }
+    {
+      "id": "5df13be4-423e-42a2-8932-0dbf6acd3b29",
+      "agencia": "6315",
+      "conta": "0093149",
+      "dac": "8",
+      "idCliente": "10fa8077-2g27-44eb-8d12-7a3d6290ca35",
+      "saldo": "300.00"
+    }
   ]
 }
