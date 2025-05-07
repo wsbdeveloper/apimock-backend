@@ -1,7 +1,14 @@
 version: "3.8"
 
 services:
-
+  desafioconta-service:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mock-api
+    networks:
+      - banco-network
   mock-api:
     image: clue/json-server
     volumes:

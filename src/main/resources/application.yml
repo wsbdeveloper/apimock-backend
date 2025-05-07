@@ -4,7 +4,7 @@ spring:
 
 mock:
   api:
-    url: http://localhost:8081
+    url: http://mock-api:80
 
 management:
   endpoints:
