@@ -68,27 +68,27 @@ No intellij existe algumas ferramentas que pode ajudar a executar o running e ve
 Nos erros implementado o ControllerAdvice para melhor gerenciamento dos erros na camada de controller (application) 
 com isso evitamos expor nossas apis com logs, que contém muita informação interna visando na segurança da aplicação.
 
-![Erros com ControllerAdvice](./docs/retornando_erro_comunicacao.png)
+![Erros com ControllerAdvice](./docs/retornandoerrocomunicacao.png)
 
 ## Resposta com sucesso
 
 - Detalhamento de sucesso na comunicação entre a apimock e apijava.
 
-![API com status 200](./docs/retornando_sucesso_comunicacao.png)
+![API com status 200](./docs/retornandosucessocomunicacao.png)
 
 ## Resposta do Endpoint da API
 
 - Todas imagens rodando corretamente.
 
-![Todos apps rodando integrados](./docs/teste_final_com_docker.png)
+![Todos apps rodando integrados](./docs/testefinalcomdocker.png)
 
 ## Prometheus
 
-![Ferramenta de observabilidade](./docs/retornando_sucesso_comunicacao.png)
+![Ferramenta de observabilidade](./docs/retornandosucessocomunicacao.png)
 
 ## Grafana
 
-![Ferramenta de gráficos e integrações](./docs/teste_grafana_query.png)
+![Ferramenta de gráficos e integrações](./docs/testegrafanaquery.png)
 
 
 
