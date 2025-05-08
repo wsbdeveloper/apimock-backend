@@ -90,6 +90,19 @@ com isso evitamos expor nossas apis com logs, que contém muita informação int
 
 ![Ferramenta de gráficos e integrações](./docs/testegrafanaquery.png)
 
+## Persistencia de dados usando PostgresSQL
+
+Atribuindo novo recurso na nossa api de simulação de integração.
+
+![Nova conta](./docs/nova_conta_mock.png)
+
+Chamando a API com o novo recurso atualizado no docker.
+
+![Resposta da chamada api da nova conta](./docs/nova_conta_resposta.png)
+
+Conta atribuida ao banco de dados usando Postgres.
+
+![Banco de dados com dbeaver](./docs/nova_conta_database.png)
 
 
 ## 🚀 Sobre mim
