@@ -88,7 +88,7 @@ com isso evitamos expor nossas apis com logs, que contém muita informação int
 
 ## Grafana
 
-![Ferramenta de gráficos e integrações](./docs/testegrafanaquery.png)
+![Ferramenta de gráficos e integrações](./docs/grafanafinalizado.png)
 
 ## Persistencia de dados usando PostgresSQL
 
