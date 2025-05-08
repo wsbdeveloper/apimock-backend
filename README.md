@@ -84,7 +84,7 @@ com isso evitamos expor nossas apis com logs, que contém muita informação int
 
 ## Prometheus
 
-![Ferramenta de observabilidade](./docs/retornandosucessocomunicacao.png)
+![Ferramenta de observabilidade](./docs/testefinalprometheus.png)
 
 ## Grafana
 
