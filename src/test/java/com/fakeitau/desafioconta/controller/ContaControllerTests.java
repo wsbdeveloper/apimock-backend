@@ -1,23 +1,27 @@
 package com.fakeitau.desafioconta.controller;
 
 import com.fakeitau.desafioconta.application.controller.ContaController;
-import com.fakeitau.desafioconta.application.controller.web.dtos.MockResponse;
+import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaController;
+import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaMock;
 import com.fakeitau.desafioconta.domain.Conta;
 import com.fakeitau.desafioconta.infrastructure.client.MockApiClient;
+import com.fakeitau.desafioconta.infrastructure.client.repository.ConsultaRepository;
+import com.fakeitau.desafioconta.model.entity.Consultas;
 import com.fakeitau.desafioconta.service.ContaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.client.HttpServerErrorException;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -32,6 +36,11 @@ public class ContaControllerTests {
 
     @InjectMocks
     private ContaController contaController;
+
+
+    @Mock
+    private ConsultaRepository repository;
+
 
     private MockMvc mockMvc;
 
@@ -56,10 +65,10 @@ public class ContaControllerTests {
 
         );
 
-        MockResponse mockResponse = new MockResponse(
+        ConsultaRespostaController consultaRespostaController = new ConsultaRespostaController(
                 conta.saldo()
         );
-        when(contaService.consultarConta(idConta)).thenReturn(mockResponse);
+        when(contaService.consultarConta(idConta)).thenReturn(consultaRespostaController);
 
         // Realizando a requisição GET para o controlador
         mockMvc.perform(get("/conta/{idConta}", idConta)

@@ -33,6 +33,23 @@ services:
       - "3001:3000"
     networks:
       - banco-network
+  databasepostgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_HOST_AUTH_METHOD: trust
+    networks:
+      - banco-network
+    ports:
+      - "5432:5432"
+    volumes:
+      - "desafioconta:/var/lib/postgresql/data"
+      - "/var/run/postgres/postgres.sock:/var/run/postgres/postgres.sock"
 networks:
   banco-network:
     driver: bridge
+
+volumes:
+  desafioconta:
+    driver: local
