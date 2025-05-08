@@ -2,15 +2,12 @@ package com.fakeitau.desafioconta.controller;
 
 import com.fakeitau.desafioconta.application.controller.ContaController;
 import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaController;
-import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaMock;
 import com.fakeitau.desafioconta.domain.Conta;
 import com.fakeitau.desafioconta.infrastructure.client.MockApiClient;
-import com.fakeitau.desafioconta.infrastructure.client.repository.ConsultaRepository;
-import com.fakeitau.desafioconta.model.entity.Consultas;
+import com.fakeitau.desafioconta.infrastructure.repository.ConsultaRepository;
 import com.fakeitau.desafioconta.service.ContaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;

@@ -1,4 +1,4 @@
-package com.fakeitau.desafioconta.infrastructure.client.repository;
+package com.fakeitau.desafioconta.infrastructure.repository;
 
 import com.fakeitau.desafioconta.model.entity.Consultas;
 import org.springframework.data.jpa.repository.JpaRepository;
