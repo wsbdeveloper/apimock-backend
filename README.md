@@ -84,11 +84,11 @@ com isso evitamos expor nossas apis com logs, que contém muita informação int
 
 ## Prometheus
 
-![Ferramenta de observabilidade](./docs/retornandosucessocomunicacao.png)
+![Ferramenta de observabilidade](./docs/testefinalprometheus.png)
 
 ## Grafana
 
-![Ferramenta de gráficos e integrações](./docs/testegrafanaquery.png)
+![Ferramenta de gráficos e integrações](./docs/grafanafinalizado.png)
 
 ## Persistencia de dados usando PostgresSQL
 
@@ -105,8 +105,8 @@ Conta atribuida ao banco de dados usando Postgres.
 ![Banco de dados com dbeaver](./docs/nova_conta_database.png)
 
 
-## 🚀 Sobre mim
+## Sobre mim
 
-- ✉️ wellingtons.bezerra@hotmail.com  
-- 💼 [LinkedIn](https://linkedin.com/in/wellington-bezerra-dev)
-- 📱 (11) 99001-3439
+- wellingtons.bezerra@hotmail.com  
+- [LinkedIn](https://linkedin.com/in/wellington-bezerra-dev)
+- (11) 99001-3439
