@@ -47,4 +47,3 @@ No intellij existe algumas ferramentas que pode ajudar a executar o running e ve
 
 - wellingtons.bezerra@hotmail.com  
 - [LinkedIn](https://linkedin.com/in/wellington-bezerra-dev)
-- (11) 99001-3439
