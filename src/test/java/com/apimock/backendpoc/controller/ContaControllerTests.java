@@ -1,11 +1,11 @@
-package com.fakeitau.desafioconta.controller;
+package com.apimock.backendpoc.controller;
 
-import com.fakeitau.desafioconta.application.controller.ContaController;
-import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaController;
-import com.fakeitau.desafioconta.domain.Conta;
-import com.fakeitau.desafioconta.infrastructure.client.MockApiClient;
-import com.fakeitau.desafioconta.infrastructure.repository.ConsultaRepository;
-import com.fakeitau.desafioconta.service.ContaService;
+import com.apimock.backendpoc.application.controller.ContaController;
+import com.apimock.backendpoc.application.controller.web.dtos.ConsultaRespostaController;
+import com.apimock.backendpoc.infrastructure.client.MockApiClient;
+import com.apimock.backendpoc.infrastructure.repository.ConsultaRepository;
+import com.apimock.backendpoc.domain.Conta;
+import com.apimock.backendpoc.service.ContaService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

@@ -1,10 +1,10 @@
-package com.fakeitau.desafioconta.service;
+package com.apimock.backendpoc.service;
 
-import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaController;
-import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaMock;
-import com.fakeitau.desafioconta.infrastructure.client.MockApiClient;
-import com.fakeitau.desafioconta.infrastructure.repository.ConsultaRepository;
-import com.fakeitau.desafioconta.model.entity.Consultas;
+import com.apimock.backendpoc.application.controller.web.dtos.ConsultaRespostaController;
+import com.apimock.backendpoc.application.controller.web.dtos.ConsultaRespostaMock;
+import com.apimock.backendpoc.infrastructure.client.MockApiClient;
+import com.apimock.backendpoc.infrastructure.repository.ConsultaRepository;
+import com.apimock.backendpoc.model.entity.Consultas;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

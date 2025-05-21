@@ -1,4 +1,4 @@
-package com.fakeitau.desafioconta.application.controller.exceptions;
+package com.apimock.backendpoc.application.controller.exceptions;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

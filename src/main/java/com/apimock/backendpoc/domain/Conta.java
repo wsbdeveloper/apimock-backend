@@ -1,4 +1,4 @@
-package com.fakeitau.desafioconta.domain;
+package com.apimock.backendpoc.domain;
 
 public record Conta(
         String id,

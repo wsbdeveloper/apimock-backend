@@ -1,8 +1,7 @@
-package com.fakeitau.desafioconta.infrastructure.client;
+package com.apimock.backendpoc.infrastructure.client;
 
 
-import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaController;
-import com.fakeitau.desafioconta.application.controller.web.dtos.ConsultaRespostaMock;
+import com.apimock.backendpoc.application.controller.web.dtos.ConsultaRespostaMock;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

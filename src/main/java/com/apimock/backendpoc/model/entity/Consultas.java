@@ -1,4 +1,4 @@
-package com.fakeitau.desafioconta.model.entity;
+package com.apimock.backendpoc.model.entity;
 
 import jakarta.persistence.*;
 import org.springframework.data.annotation.CreatedDate;

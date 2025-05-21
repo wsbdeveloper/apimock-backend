@@ -1,4 +1,4 @@
-package com.fakeitau.desafioconta.application.controller.web.dtos;
+package com.apimock.backendpoc.application.controller.web.dtos;
 
 public record ConsultaRespostaMock(
         String id,

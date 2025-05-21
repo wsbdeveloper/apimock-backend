@@ -1,6 +1,6 @@
-package com.fakeitau.desafioconta.infrastructure.repository;
+package com.apimock.backendpoc.infrastructure.repository;
 
-import com.fakeitau.desafioconta.model.entity.Consultas;
+import com.apimock.backendpoc.model.entity.Consultas;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

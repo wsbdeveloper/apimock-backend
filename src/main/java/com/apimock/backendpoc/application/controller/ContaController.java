@@ -1,7 +1,7 @@
-package com.fakeitau.desafioconta.application.controller;
+package com.apimock.backendpoc.application.controller;
 
 
-import com.fakeitau.desafioconta.service.ContaService;
+import com.apimock.backendpoc.service.ContaService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
