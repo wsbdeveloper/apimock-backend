@@ -44,12 +44,12 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - "desafioconta:/var/lib/postgresql/data"
+      - "apimockbackend:/var/lib/postgresql/data"
       - "/var/run/postgres/postgres.sock:/var/run/postgres/postgres.sock"
 networks:
   banco-network:
     driver: bridge
 
 volumes:
-  desafioconta:
+  apimockbackend:
     driver: local
